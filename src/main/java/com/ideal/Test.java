@@ -11,6 +11,7 @@ public class Test {
 
         int line = Integer.parseInt(args[0]);
         int counts = Integer.parseInt(args[1]);
+        int lines = Integer.parseInt(args[2]);
         for(int i=0 ;i<line;i++){
             System.out.println("===================第"+(i+1)+"行=====================");
         }
